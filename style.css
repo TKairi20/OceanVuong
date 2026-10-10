@@ -119,11 +119,17 @@ footer {
     font-style: italic;
 }
 @media(max-width: 480px) {
+    html body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
     nav {
-        margin: 0 auto;
+        margin: 0;
         margin-bottom: 50px;
         width: 100%;
-        padding: 20px 0;
+        padding: 25px 0;
         line-height: 10px;
         position: relative;
         display: flex;
